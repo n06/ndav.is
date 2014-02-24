@@ -1,0 +1,11 @@
+{
+  "name": "roboto-fontface-bower",
+  "version": "0.1.2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
