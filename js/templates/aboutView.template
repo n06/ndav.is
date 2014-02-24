@@ -5,4 +5,25 @@
   <p class="lead">
     <a href="#" class="btn btn-lg btn-default">Learn more</a>
   </p>
+  <br/>
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-md-4">
+  			<h2>Lorem Ipsum.</h2>
+  			<div class="row">
+  				<div class="col-md-12">
+  					<p>Sed suscipit interdum ultrices. Duis augue urna, suscipit id semper id, tempor eu ipsum. Pellentesque aliquam arcu urna, quis semper magna sollicitudin ut. Praesent ac pretium nisl, ut ornare lacus. In rhoncus libero orci, vel facilisis neque tincidunt at. Curabitur aliquam nisl odio, sed blandit libero gravida sit amet. Donec vel magna eu ipsum blandit semper. Proin non vestibulum velit, eu facilisis quam. Donec vitae pulvinar libero. Cras venenatis pharetra justo non dapibus. Curabitur vel porttitor lectus, sit amet porta nulla. Morbi et elit ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam posuere, erat ac ultrices facilisis, magna nisl mollis nisi, sit amet tincidunt ante velit sed sem. Proin blandit vulputate fermentum. Phasellus sodales justo a aliquam commodo.</p>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-md-4 col-md-offset-4">
+  			<h2>Lorem Ipsum.</h2>
+  			<div class="row">
+  				<div class="col-md-12">
+  					<p>Aliquam iaculis leo mauris, vel interdum turpis tempor non. Phasellus id leo a nisl cursus dignissim suscipit non justo. Fusce viverra varius quam, vel laoreet dui. Morbi tempor mollis eros, eget fermentum turpis dictum ut. Suspendisse imperdiet a lorem id aliquam. In at euismod ligula. Pellentesque sollicitudin at dolor id sollicitudin. Integer a nisi eget enim semper molestie. Nullam consectetur non velit sed posuere. Cras eleifend blandit risus ac molestie.</p>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
 </div>
