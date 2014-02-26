@@ -1,7 +1,8 @@
-<div class="inner cover">
-  <h1 class="cover-heading">Those who surrender freedom for security will not have, nor do they deserve, either one.</h1>
-  <p class="lead">My name is Nick Davis. I am a software engineer and conputer security enthusiast.</p>
-  <p class="lead">
+<div>
+  <h1 class="text-center">They who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety.
+  <small><span class="glyphicon glyphicon-minus"></span> Benjamin Franklin</small></h1>
+  <p class="lead text-center">My name is Nick Davis. I am a software engineer and conputer security enthusiast.</p>
+  <p class="text-center">
     <a href="#" class="btn btn-lg btn-default">Learn more</a>
   </p>
 </div>

@@ -23,6 +23,7 @@ require(["jquery", "backbone", "routers/router", "views/homeView"],
         function($, Backbone, Router, HomeView){
 
   $( document ).ready(function() {
+    console.log("loading webapp...");
     this.homeView = new HomeView();
     this.homeView.render();
     this.router = new Router();

@@ -6,6 +6,5 @@ function($, _, Backbone, homeTemplate) {
     render : function() {
       this.$el.html(homeTemplate());
     }
-
   });
 });

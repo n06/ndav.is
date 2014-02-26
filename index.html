@@ -3,16 +3,15 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-15"/>
     <title>NDav.is</title>
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/base.css" rel="stylesheet" />
   </head>
 
   <body>
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse-div">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -22,44 +21,17 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse-div">
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a id="home" href="#">Home</a></li>
+            <li><a id="about" href="#about">About</a></li>
+            <li><a id="resume" href="#resume">Resume</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://github.com/n06" target="_blank">GitHub</a></li>
+            <li><a href="https://github.com/n06" target="_blank"><i class="fa fa-github-square"></i> Portfolio</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="content-container"></div>
-  <!--  <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="masthead clearfix">
-            <div class="inner">
-                <h3 class="masthead-brand">Ndav.is</h3>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Senior Capstone Project</a></li>
-                        <li><a href="#">Facial Recognition using UAV Platforms</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="resume.html">Resume</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://github.com/n06">Portfolio</a></li>
-                </ul>
-            </div>
-          </div>
-          <div id="content-container"></div>
-        </div>
-      </div>
-    </div> -->
+    <div id="content-container"></div>
   </body>
 </html>
 <script data-main="js/main" src="bower_components/requirejs/require.js"></script>
