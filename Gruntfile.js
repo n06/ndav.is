@@ -22,11 +22,20 @@ grunt.initConfig({
                 livereload: true,
             }
         }
+    },
+    connect: {
+      server: {
+        options: {
+          port: 8000,
+          keepalive: true
+        }
+      }
     }
 });
 
 grunt.loadNpmTasks('grunt-contrib-less');
 grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-contrib-connect');
 
-grunt.registerTask('default', ['watch']);
+grunt.registerTask('default', ['connect', 'watch']);
 };

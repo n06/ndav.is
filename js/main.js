@@ -6,7 +6,7 @@
       "bootstrap"        : VENDOR + "bootstrap/dist/js/bootstrap.min",
       "handlebars"       : VENDOR + "handlebars/handlebars.min",
       "text"             : VENDOR + "requirejs-text/text",
-      "hbs"            : VENDOR + "requirejs-handlebars/hb",
+      "hbs"              : VENDOR + "requirejs-handlebars/hb",
       "backbone"         : VENDOR + "backbone/backbone",
       "underscore"       : VENDOR + "lodash/dist/lodash.underscore.min",
       "moment"           : VENDOR + "moment/min/moment.min"
