@@ -1,9 +1,11 @@
-define(['jquery', 'underscore', 'backbone', 'views/homeView', 'views/aboutView'],
-function($, _, Backbone, HomeView, AboutView){
+define(['jquery', 'underscore', 'backbone', 'views/homeView', 'views/aboutView',
+        'views/resumeView'],
+function($, _, Backbone, HomeView, AboutView, ResumeView){
   return Backbone.Router.extend({
     routes : {
       ''          : "home",
-      'about'    : "about"
+      'about'     : "about",
+      'resume'    : "resume"
     },
 
     initialize : function() {
@@ -22,7 +24,13 @@ function($, _, Backbone, HomeView, AboutView){
         this.aboutView = new AboutView();
       }
       this.aboutView.render();
-      console.log("about view!");
+    },
+
+    resume: function() {
+      if(!this.resumeView) {
+        this.resumeView = new ResumeView();
+      }
+      this.resumeView.render();
     }
   });
 });
