@@ -150,7 +150,7 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/manhattan.jpeg) no-repeat center top;
+	background: url(https://s3.amazonaws.com/ndav.is/assets/img/manhattan.jpeg) no-repeat center top;
 	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
